@@ -1,0 +1,125 @@
+# EESchema Netlist Version 1.1 created  dom 16 feb 2014 17:14:24 CET
+(
+ ( /5300DB66 TO220 C1 2200uF
+  ( 1 N-000004 )
+  ( 2 N-000005 )
+ )
+ ( /5300DD95 TO220 C2 100nF
+  ( 1 N-000004 )
+  ( 2 N-000005 )
+ )
+ ( /5300DD52 TO220 C3 100uF
+  ( 1 N-000001 )
+  ( 2 N-000005 )
+ )
+ ( /5300DA49 TO220 D1 DIODE
+  ( 1 GND )
+  ( 2 N-000004 )
+ )
+ ( /5300DA2D TO220 D2 DIODE
+  ( 1 GND )
+  ( 2 N-000005 )
+ )
+ ( /5300DA48 TO220 D3 DIODE
+  ( 1 N-000004 )
+  ( 2 +24V )
+ )
+ ( /5300DA2C TO220 D4 DIODE
+  ( 1 N-000005 )
+  ( 2 +24V )
+ )
+ ( /5300DB90 TO220 D5 1N4002
+  ( 1 N-000006 )
+  ( 2 N-000004 )
+ )
+ ( /5300DD49 TO220 D6 1N4007
+  ( 1 N-000001 )
+  ( 2 N-000006 )
+ )
+ ( /5300DEFE TO220 D7 LED
+  ( 1 N-000002 )
+  ( 2 N-000005 )
+ )
+ ( /5300DD1B TO220 R1 240
+  ( 1 N-000006 )
+  ( 2 N-000007 )
+ )
+ ( /5300DD64 TO220 R2 1,5k
+  ( 1 N-000006 )
+  ( 2 N-000002 )
+ )
+ ( /5300DD21 TO220 RV1 4,7K
+  ( 1 N-000005 )
+  ( 2 N-000005 )
+  ( 3 N-000007 )
+ )
+ ( /5300DC0A TO220 U1 LM317
+  ( 1 N-000004 )
+  ( 2 N-000007 )
+  ( 3 N-000006 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

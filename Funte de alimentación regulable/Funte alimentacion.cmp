@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = dom 16 feb 2014 17:14:24 CET
+
+BeginCmp
+TimeStamp = /5300DB66;
+Reference = C1;
+ValeurCmp = 2200uF;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD95;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD52;
+Reference = C3;
+ValeurCmp = 100uF;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DA49;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DA2D;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DA48;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DA2C;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DB90;
+Reference = D5;
+ValeurCmp = 1N4002;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD49;
+Reference = D6;
+ValeurCmp = 1N4007;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DEFE;
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD1B;
+Reference = R1;
+ValeurCmp = 240;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD64;
+Reference = R2;
+ValeurCmp = 1,5k;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DD21;
+Reference = RV1;
+ValeurCmp = 4,7K;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300DC0A;
+Reference = U1;
+ValeurCmp = LM317;
+IdModule  = TO220;
+EndCmp
+
+EndListe
