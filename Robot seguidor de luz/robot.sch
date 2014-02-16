@@ -1,0 +1,241 @@
+EESchema Schematic File Version 2  date dom 16 feb 2014 17:50:36 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 43  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "16 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7700 3900 7800 3900
+Wire Wire Line
+	8750 3450 8750 2550
+Wire Wire Line
+	8750 2350 8750 1550
+Connection ~ 7600 1550
+Wire Wire Line
+	8750 1550 3350 1550
+Wire Wire Line
+	1300 4100 1300 4250
+Connection ~ 1900 2750
+Wire Wire Line
+	1900 2750 1200 2750
+Wire Wire Line
+	1200 2750 1200 2500
+Wire Wire Line
+	7600 4250 7600 3900
+Wire Wire Line
+	4000 4250 4000 2850
+Wire Wire Line
+	7200 2850 7200 3400
+Wire Wire Line
+	5700 2250 5700 2800
+Connection ~ 4000 2250
+Wire Wire Line
+	1900 3400 1900 3650
+Wire Wire Line
+	1900 2650 1900 2800
+Wire Wire Line
+	2000 1650 2000 1450
+Wire Wire Line
+	2000 1450 2350 1450
+Wire Wire Line
+	4000 2050 4000 2450
+Wire Wire Line
+	4000 2250 7200 2250
+Wire Wire Line
+	7200 2250 7200 2450
+Connection ~ 5700 2250
+Wire Wire Line
+	5700 3200 5700 3600
+Wire Wire Line
+	5700 3600 7200 3600
+Connection ~ 4000 1550
+Connection ~ 4000 4250
+Wire Wire Line
+	1900 4250 1900 4400
+Connection ~ 1900 4250
+Wire Wire Line
+	1300 4250 8750 4250
+Connection ~ 7600 4250
+Wire Wire Line
+	8200 3500 8400 3500
+Wire Wire Line
+	8400 3500 8400 2900
+Wire Wire Line
+	8400 2900 8750 2900
+Connection ~ 8750 2900
+Wire Wire Line
+	8750 4250 8750 3650
+Wire Wire Line
+	7600 3100 7600 1550
+$Comp
+L CONN_2 P1
+U 1 1 5300EBA6
+P 9100 2450
+F 0 "P1" V 9050 2450 40  0000 C CNN
+F 1 "motor1" V 9150 2450 40  0000 C CNN
+	1    9100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 5300EB8C
+P 9100 3550
+F 0 "P2" V 9050 3550 40  0000 C CNN
+F 1 "motor2" V 9150 3550 40  0000 C CNN
+	1    9100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5300E921
+P 1300 4100
+F 0 "#FLG01" H 1300 4195 30  0001 C CNN
+F 1 "PWR_FLAG" H 1300 4280 30  0000 C CNN
+	1    1300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 5300E919
+P 1900 4400
+F 0 "#PWR02" H 1900 4400 30  0001 C CNN
+F 1 "GND" H 1900 4330 30  0001 C CNN
+	1    1900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5300E908
+P 1200 2500
+F 0 "#FLG03" H 1200 2595 30  0001 C CNN
+F 1 "PWR_FLAG" H 1200 2680 30  0000 C CNN
+	1    1200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM386 U3
+U 1 1 5300E83C
+P 7700 3500
+F 0 "U3" H 7850 3700 60  0000 C CNN
+F 1 "LM386" H 7850 3800 60  0000 C CNN
+	1    7700 3500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 2850
+NoConn ~ 6000 2450
+$Comp
+L PHOTORESISTOR U2
+U 1 1 5300E82B
+P 6600 2650
+F 0 "U2" H 6610 2970 70  0000 C CNN
+F 1 "PHOTORESISTOR" H 6610 2330 70  0000 C CNN
+	1    6600 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4500 3200
+NoConn ~ 4500 2800
+$Comp
+L PHOTORESISTOR U1
+U 1 1 5300E7E7
+P 5100 3000
+F 0 "U1" H 5110 3320 70  0000 C CNN
+F 1 "PHOTORESISTOR" H 5110 2680 70  0000 C CNN
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5300E765
+P 4000 2650
+F 0 "D1" H 4000 2750 50  0000 C CNN
+F 1 "LED" H 4000 2550 50  0000 C CNN
+	1    4000 2650
+	0    1    1    0   
+$EndComp
+NoConn ~ 3350 1350
+$Comp
+L R R1
+U 1 1 5300E73A
+P 4000 1800
+F 0 "R1" V 4080 1800 50  0000 C CNN
+F 1 "1k" V 4000 1800 50  0000 C CNN
+	1    4000 1800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1800 1650
+$Comp
+L SWITCH_INV SW1
+U 1 1 5300E706
+P 1900 2150
+F 0 "SW1" H 1700 2300 50  0000 C CNN
+F 1 "SWITCH_INV" H 1750 2000 50  0000 C CNN
+	1    1900 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SWITCH_INV SW2
+U 1 1 5300E6F7
+P 2850 1450
+F 0 "SW2" H 2650 1600 50  0000 C CNN
+F 1 "SWITCH_INV" H 2700 1300 50  0000 C CNN
+	1    2850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L BATTERY BT2
+U 1 1 5300E6A9
+P 1900 3950
+F 0 "BT2" H 1900 4150 50  0000 C CNN
+F 1 "2xAA" H 1900 3760 50  0000 C CNN
+	1    1900 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BATTERY BT1
+U 1 1 5300E693
+P 1900 3100
+F 0 "BT1" H 1900 3300 50  0000 C CNN
+F 1 "2xAA" H 1900 2910 50  0000 C CNN
+	1    1900 3100
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

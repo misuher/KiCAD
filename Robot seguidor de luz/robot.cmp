@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = dom 16 feb 2014 17:50:16 CET
+
+BeginCmp
+TimeStamp = /5300E693;
+Reference = BT1;
+ValeurCmp = 2xAA;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E6A9;
+Reference = BT2;
+ValeurCmp = 2xAA;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E765;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300EBA6;
+Reference = P1;
+ValeurCmp = motor1;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300EB8C;
+Reference = P2;
+ValeurCmp = motor2;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E73A;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E706;
+Reference = SW1;
+ValeurCmp = SWITCH_INV;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E6F7;
+Reference = SW2;
+ValeurCmp = SWITCH_INV;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E7E7;
+Reference = U1;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E82B;
+Reference = U2;
+ValeurCmp = PHOTORESISTOR;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /5300E83C;
+Reference = U3;
+ValeurCmp = LM386;
+IdModule  = TO220;
+EndCmp
+
+EndListe

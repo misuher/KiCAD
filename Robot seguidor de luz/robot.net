@@ -1,0 +1,78 @@
+# EESchema Netlist Version 1.1 created  dom 16 feb 2014 17:50:16 CET
+(
+ ( /5300E693 TO220 BT1 2xAA
+  ( 1 N-000010 )
+  ( 2 N-000008 )
+ )
+ ( /5300E6A9 TO220 BT2 2xAA
+  ( 1 GND )
+  ( 2 N-000010 )
+ )
+ ( /5300E765 TO220 D1 LED
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /5300EBA6 TO220 P1 motor1
+  ( 1 N-000013 )
+  ( 2 N-000016 )
+ )
+ ( /5300EB8C TO220 P2 motor2
+  ( 1 N-000016 )
+  ( 2 GND )
+ )
+ ( /5300E73A TO220 R1 1k
+  ( 1 N-000013 )
+  ( 2 N-000015 )
+ )
+ ( /5300E706 TO220 SW1 SWITCH_INV
+  ( 1 ? )
+  ( 2 N-000008 )
+  ( 3 N-000011 )
+ )
+ ( /5300E6F7 TO220 SW2 SWITCH_INV
+  ( 1 ? )
+  ( 2 N-000011 )
+  ( 3 N-000013 )
+ )
+ ( /5300E7E7 TO220 U1 PHOTORESISTOR
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 N-000015 )
+  ( 4 N-000006 )
+ )
+ ( /5300E82B TO220 U2 PHOTORESISTOR
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 N-000015 )
+  ( 4 N-000005 )
+ )
+ ( /5300E83C TO220 U3 LM386
+  ( 1 N-000007 )
+  ( 2 N-000006 )
+  ( 3 N-000005 )
+  ( 4 GND )
+  ( 5 N-000016 )
+  ( 6 N-000013 )
+  ( 8 N-000007 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
